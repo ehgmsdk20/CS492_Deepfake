@@ -1,0 +1,3 @@
+{% for photo in post.photo_set.all%}
+    <img src="{{photo.image.url}}" width="50"><br>
+{% endfor %}
